@@ -43,11 +43,11 @@ const RewardsNotStakedCardSection = ({ lyraBalances }: Props): CardElement => {
           Not Staked
         </Text>
         <Text variant="heading" color={balance.isZero() ? 'secondaryText' : l2Balance.gt(0) ? 'warningText' : 'text'}>
-          {formatTruncatedNumber(balance)} LYRA
+          {formatTruncatedNumber(balance)} dionizio
         </Text>
       </Flex>
       <Text my={8} color="secondaryText">
-        By staking LYRA you earn stkLYRA rewards and receive boosts on your vault and trading rewards. Staked LYRA has a
+        By staking dionizio you earn stkdionizio rewards and receive boosts on your vault and trading rewards. Staked dionizio has a
         14 day unstaking period.
       </Text>
       <Grid sx={{ gridTemplateColumns: ['1fr', '1fr 1fr'], gridGap: 3 }}>
@@ -59,7 +59,7 @@ const RewardsNotStakedCardSection = ({ lyraBalances }: Props): CardElement => {
         ) : null}
         <Button
           size="lg"
-          label="Swap to LYRA"
+          label="Swap to dionizo"
           rightIcon={IconType.ArrowUpRight}
           href={SWAP_LYRA_1INCH_URL}
           target="_blank"
