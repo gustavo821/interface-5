@@ -21,10 +21,10 @@ function PortfolioOnboardingCard() {
       <CardSection justifyContent="center" alignItems="center" height="100%" width="100%">
         <Image src={getAssetSrc('/images/logo.png')} mb={4} size={42} />
         <Text variant="title" mb={4}>
-          Welcome to Lyra
+          Welcome to dionizio
         </Text>
         <Text textAlign="center" variant="secondary" color="secondaryText" mb={6}>
-          Trade, provide liquidity and earn rewards with the Lyra Protocol
+          Trade, provide liquidity and earn rewards with the dionizio Protocol
         </Text>
         <Button
           href={getPagePath({
