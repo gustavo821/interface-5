@@ -33,7 +33,7 @@ const RewardsStakingCard = ({
           Staking
         </Text>
         <Text color="secondaryText">
-          Earn rewards by staking Lyra and get boosted rewards for trading and liquidity mining.
+          Earn rewards by staking dionizio and get boosted rewards for trading and liquidity mining.
         </Text>
       </Box>
       <Card flexDirection={isMobile ? 'column' : 'row'} {...marginProps}>
